@@ -5,10 +5,10 @@
  In the back end I simplified the the entire website into small and simple <strong>slides</strong> and <strong>plugins</strong>
  for re-usability.
 
- Each different website <strong>slide</strong> is running inside the same <bold>(app.php)</bold> main page.
+ Each different website <strong>slide</strong> is running inside the same <strong>(app.php)</strong> main page.
  The main functions are standalone <strong>plugins</strong> in separate files were each <strong>plugins</strong> has standard task for encapsulation.
 
  Each <strong>slide</strong> connected the <strong>plugins</strong> that meets its needs using 
-''<? include(<plugin path>)?>" .
+ <? include(<plugin path>)?> .
 
-The main <bold>(app.php)</bold> file contains all the universal (elements,navigation bar,variables,imports,style sheets links,and external resources) all in one main file that switching between multiple slides and <strong>plugins</strong> with scope support the <strong>slide</strong> once its requested.
+The main <strong>(app.php)</strong> file contains all the universal (elements,navigation bar,variables,imports,style sheets links,and external resources) all in one main file that switching between multiple slides and <strong>plugins</strong> with scope support the <strong>slide</strong> once its requested.
