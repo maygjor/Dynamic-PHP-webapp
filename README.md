@@ -1,6 +1,5 @@
 #Explain for my PHP programming flow 
-
- In design I combined  my custom CSS skills and bootstrap built in classes to build my own simple CSS library.
+ In design I combined my custom CSS skills and bootstrap built in classes .
  
  In the back-end I simplified the the entire Application into small and simple <strong>slides</strong> and <strong>plugins</strong>
  for re-usability.
